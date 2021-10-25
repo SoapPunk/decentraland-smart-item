@@ -1,0 +1,45 @@
+{
+    "id": "0936444d-bee2-446d-976f-8513607ca26b",
+    "name": "Compicactus",
+    "tags": ["npc", "character", "compicactus"],
+    "category": "decorations",
+    "model": "models/chest.glb",
+    "parameters": [
+        {
+            "id": "active",
+            "label": "Visible",
+            "type": "boolean",
+            "default": true
+        },
+        {
+            "id": "character",
+            "label": "Character",
+            "type": "options",
+            "options": [
+                {
+                    "value": "compicactus",
+                    "label": "Compicactus"
+                }
+            ],
+            "default": "compicactus"
+        },
+        {
+            "id": "token_id",
+            "label": "Token ID",
+            "type": "integer",
+            "default": -1
+        }
+    ],
+    "actions": [
+        {
+            "id": "activate",
+            "label": "Show",
+            "parameters": []
+        },
+        {
+            "id": "deactivate",
+            "label": "Hide",
+            "parameters": []
+        }
+    ]
+}
